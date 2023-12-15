@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Delicious+Handrawn&family=Poppins:wght@200;300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.bg-w{
+    color: whitesmoke;
+}
+.card{flex-direction: column;
+    margin-top: 75px;
+    width: 352px;
+  
+    align-items: center;
+   
+    display: flex;
+    height: 500px;
+    border-radius: 24px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+   
+}
+input{border: none;
+    padding-left: 15px;
+    width: 228px;
+    border-radius: 20px;
+height: 42px;
+margin-left: 17px;
+margin-top: 30px;
+}
+
+button{   
+    border: none;
+    border-radius: 21px;
+    margin-left: 2px;
+    width: 44px;
+    height: 42px;
+    padding: 0px;
+}
+.sr-img{
+    height: 17px;
+    width: 18px;
+}
+.logo{
+    text-align: center;
+}
+.weather-icon{
+    
+    height: 184px;
+    width: 150px;
+    margin-top: 7px;
+}
+h1{
+  color: whitesmoke;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}
+.city{ 
+color: whitesmoke;
+margin: 0;
+font-family: 'Poppins', sans-serif; 
+font-size: 30px;
+}
+.humid{
+    display: inline-flex;
+}
+.humi-img{
+    margin-right: 10px;
+}
+.wind-img{
+    margin-left: 27px;
+    width: 54px;
+    margin-right: 11px;
+}
+.wind{
+    display: inline-flex;
+}
+h2,h6{
+    margin: 0;
+    
+}
+.color-w{
+    color: whitesmoke;
+ 
+    font-family: 'Poppins', sans-serif;
+}
+.text{
+
+    margin-bottom: 25px;
+    text-align: center;
+}
